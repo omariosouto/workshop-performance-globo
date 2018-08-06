@@ -92,7 +92,9 @@
 
 @media (min-width: 700px) {
 	body {
-		transition: transform .3s;
+		position: relative;
+		top: 0;
+		transition: top .3s;
 	}
 
 	.header-barraBusca {
@@ -108,7 +110,7 @@
 		}
 
 	.header-barraBusca-visivel {
-		transform: translateY(92px);
+		top: 92px;
 	}
 
 	.header-barraBusca div.container {
