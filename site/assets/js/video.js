@@ -7,4 +7,4 @@ setTimeout(function(){
 		containers[i].innerHTML = '<iframe class="elasticMedia" src="' + src + '" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>';
 	}
 
-}, 500);
+}, 1000);

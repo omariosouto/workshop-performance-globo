@@ -1,0 +1,1 @@
+window.onscroll=function(){console.log("Olha que doido");var t=document.querySelectorAll("img[data-src]"),o=!0,r=!1,e=void 0;try{for(var i,n=t[Symbol.iterator]();!(o=(i=n.next()).done);o=!0)img=i.value,img.getBoundingClientRect().top<window.innerHeight&&(img.src=img.getAttribute("data-src"))}catch(t){r=!0,e=t}finally{try{!o&&n.return&&n.return()}finally{if(r)throw e}}};
