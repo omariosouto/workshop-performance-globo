@@ -7,13 +7,17 @@
 
 	<title>Alura | Cursos online de tecnologia</title>
 
+	<!-- build:js assets/js/scripts.js -->
 	<script src="assets/js/home.js"></script>
 	<script src="assets/js/jquery.js"></script>
 	<script src="assets/js/menu.js"></script>
 	<script src="assets/js/busca.js"></script>
 	<script src="assets/js/detect.js"></script>
 	<script src="assets/js/footer.js"></script>
+	<!-- endbuild -->
 
+
+	<!-- build:css assets/css/style.css -->
 	<link rel="stylesheet" href="assets/css/reset.css">
 	<link rel="stylesheet" href="assets/css/base.css">
 	<link rel="stylesheet" href="assets/css/colors.css">
@@ -40,6 +44,8 @@
 	<link rel="stylesheet" href="assets/css/home-diferenciais.css">
 	<link rel="stylesheet" href="assets/css/home-fundo.css">
 	<link rel="stylesheet" href="assets/css/home.css">
+	<!-- endbuild -->
+
 </head>
 <body>
 
@@ -144,7 +150,8 @@
 		</a><!--
 	--><!--
 		--><a href="/cursos-online-business" class="categoriaCard-item bg-categoria-business">
-			<img class="categoriaCard-item-icone" src="assets/img/categoria-business.svg" alt="">
+			<!-- <img class="categoriaCard-item-icone" src="assets/img/categoria-business.svg" alt=""> -->
+			<svg class="categoriaCard-item-icone"><use xlink:href="assets/img/categorias.svg#business"></svg>
 			<h3 class="categoriaCard-item-nome">
 				<div class="categoriaCard-item-nome-cursos">Cursos de</div>
 				Business
